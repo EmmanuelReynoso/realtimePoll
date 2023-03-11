@@ -1,0 +1,12 @@
+version: 3
+endpoint: https://oriented-turkey-41.hasura.app
+
+metadata_directory: metadata
+migrations_directory: migrations
+seeds_directory: seeds
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: https://oriented-turkey-41.hasura.app
+  codegen:
+    framework: ""
+    output_dir: ""
